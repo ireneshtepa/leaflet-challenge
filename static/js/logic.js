@@ -94,10 +94,11 @@ var overlayMaps = {
       
 // Create map
 var myMap = L.map("map", {
-  center: [39.840984, -39.867545],
+  center: [-3.398460, 66.633409],
   zoom: 3,
   layers: [satellite, earthquakes, plates]
-});    
+});  
+
     
 // Create a layer control
   L.control.layers(baseMaps, overlayMaps, {
